@@ -1,0 +1,12 @@
+body {
+  background: $si-color-black;
+  color: $si-color-white;
+
+  .container {
+
+    &.primary {
+      padding: 0;
+    }
+  }
+
+}

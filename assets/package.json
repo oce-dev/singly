@@ -1,0 +1,21 @@
+{
+  "name": "Singly(fication)",
+  "description": "A scriptification of assets for Stylification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bourbon": "^4.3.3",
+    "lodash": "^4.17.4",
+    "progressbar.js": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oce-Dev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oce-dev/singly.git"
+  }
+}
