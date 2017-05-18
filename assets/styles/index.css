@@ -6644,7 +6644,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 body {
   background: #000;
   color: #fff; }
-  body .container.primary {
-    padding: 0; }
+  body #fullpage {
+    text-align: center; }
 
 /*# sourceMappingURL=index.css.map */
