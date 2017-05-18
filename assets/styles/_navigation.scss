@@ -1,0 +1,25 @@
+.nav.primary {
+  @extend .fixed-top;
+  @extend .justify-content-end;
+  padding: 10px 20px;
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  li {
+    @extend .nav-item;
+
+    a {
+      @extend .nav-link;
+      color: $si-color-neon;
+      transition: all .25s;
+
+      &:hover {
+        color: white;
+      }
+
+    }
+
+  }
+
+}
