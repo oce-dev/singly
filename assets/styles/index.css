@@ -6670,6 +6670,9 @@ body {
   color: #fff; }
   body #fullpage {
     text-align: center; }
+  body h3, body h4 {
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase; }
 
 .nav.primary {
   padding: 10px 20px;
