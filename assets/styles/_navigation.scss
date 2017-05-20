@@ -2,9 +2,10 @@
   @extend .fixed-top;
   @extend .justify-content-end;
   padding: 10px 20px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Jura', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 400;
+
 
   li {
     @extend .nav-item;

@@ -1,14 +1,30 @@
 body {
   background: $si-color-black;
   color: $si-color-white;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
 
   #fullpage {
     text-align: center;
+
+    > section {
+      .container {
+        padding: 0 30px;
+
+        @include media-breakpoint-up(lg) {
+          padding: 0;
+          max-width: 60%;
+        }
+
+      }
+    }
   }
 
   h3, h4 {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Jura', sans-serif;
     text-transform: uppercase;
+    font-weight: 600;
   }
 
 }

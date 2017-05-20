@@ -6667,18 +6667,28 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 body {
   background: #000;
-  color: #fff; }
+  color: #fff;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 300;
+  font-size: 17px; }
   body #fullpage {
     text-align: center; }
+    body #fullpage > section .container {
+      padding: 0 30px; }
+      @media (min-width: 992px) {
+        body #fullpage > section .container {
+          padding: 0;
+          max-width: 60%; } }
   body h3, body h4 {
-    font-family: 'Rajdhani', sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600; }
 
 .nav.primary {
   padding: 10px 20px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Jura', sans-serif;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: 400; }
   .nav.primary li a {
     color: #e3f43d;
     transition: all .25s; }
