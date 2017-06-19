@@ -1,11 +1,20 @@
+html {
+  background: url('../images/sample1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
 body {
-  background: $si-color-black;
+  background: none;
   color: $si-color-white;
   font-family: 'Overpass', sans-serif;
-  font-weight: 300;
   font-size: 17px;
+  font-weight: 300;
 
   #fullpage {
+    background: rgba(0, 0, 0, .75);
     text-align: center;
 
     > section {
@@ -19,6 +28,33 @@ body {
 
       }
     }
+  }
+
+  #section-intro {
+
+    h1 {
+      font-size: 50px;
+    }
+
+  }
+
+  #section-social {
+
+    .nav.social {
+      @extend .justify-content-center;
+
+      li {
+        margin: 0 10px;
+        font-size: 50px;
+
+        span {
+          display: none;
+        }
+
+      }
+
+    }
+
   }
 
   h3, h4 {
