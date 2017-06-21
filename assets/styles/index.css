@@ -6676,8 +6676,7 @@ body {
   background: none;
   color: #fff;
   font-family: 'Overpass', sans-serif;
-  font-size: 17px;
-  font-weight: 300; }
+  font-size: 17px; }
   body #fullpage {
     background: rgba(0, 0, 0, 0.75);
     text-align: center; }
@@ -6687,8 +6686,14 @@ body {
         body #fullpage > section .container {
           padding: 0;
           max-width: 60%; } }
-  body #section-intro h1 {
-    font-size: 50px; }
+  body #section-intro {
+    padding: 0 40px; }
+    body #section-intro h1,
+    body #section-intro h2 {
+      text-transform: uppercase; }
+    body #section-intro h1 {
+      font-size: 50px;
+      font-weight: 600; }
   body #section-social .nav.social li {
     margin: 0 10px;
     font-size: 50px; }
