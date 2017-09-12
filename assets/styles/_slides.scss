@@ -1,0 +1,28 @@
+.fp-slides {
+  .slide {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &.slide-1 {
+      background-image: url('../images/sample3.jpg');
+    }
+
+    &.slide-2 {
+      background-image: url('../images/sample4.jpg');
+    }
+
+    &.slide-3 {
+      background-image: url('../images/sample5.jpg');
+    }
+
+    &.slide-4 {
+      background-image: url('../images/sample6.jpg');
+    }
+  }
+
+}
+
+.fp-controlArrow {
+
+}

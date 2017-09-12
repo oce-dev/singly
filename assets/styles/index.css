@@ -6713,4 +6713,17 @@ body {
     .nav.primary li a:hover {
       color: white; }
 
+.fp-slides .slide {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .fp-slides .slide.slide-1 {
+    background-image: url("../images/sample3.jpg"); }
+  .fp-slides .slide.slide-2 {
+    background-image: url("../images/sample4.jpg"); }
+  .fp-slides .slide.slide-3 {
+    background-image: url("../images/sample5.jpg"); }
+  .fp-slides .slide.slide-4 {
+    background-image: url("../images/sample6.jpg"); }
+
 /*# sourceMappingURL=index.css.map */
