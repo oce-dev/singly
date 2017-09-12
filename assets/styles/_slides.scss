@@ -24,5 +24,26 @@
 }
 
 .fp-controlArrow {
+  top: 0;
+  height: 100%;
+
+
+  &.fp-prev,
+  &.fp-next {
+    top: 0 !important;
+    width: 20% !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  &.fp-prev {
+    left: 0 !important;
+  }
+
+  &.fp-next {
+    right: 0 !important;
+  }
 
 }

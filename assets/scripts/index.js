@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		autoScrolling: false,
+		autoScrolling: true,
 		navigation: true,
 		anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
 	});
