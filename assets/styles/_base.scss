@@ -6,6 +6,23 @@ html {
 }
 
 
+.divider {
+  background: red;
+}
+
+// Primairy Navigation
+
+.navbar {
+  &.primary {
+    width: 100%;
+    background: #0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+}
+
 body {
   background: none;
   color: $si-color-white;
