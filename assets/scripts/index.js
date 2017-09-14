@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		autoScrolling: true,
-		navigation: true,
+		navigation: false,
 		anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
 	});
 });

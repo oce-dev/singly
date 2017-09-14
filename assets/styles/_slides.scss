@@ -1,4 +1,5 @@
 .fp-slides {
+
   .slide {
     background-position: center center;
     background-repeat: no-repeat;
@@ -19,38 +20,83 @@
     &.slide-4 {
       background-image: url('../images/slide4.jpg');
     }
+
   }
 
 }
+
+// Slide Controls
 
 .fp-controlArrow {
   top: 0;
   height: 100%;
 
-
   &.fp-prev,
   &.fp-next {
-    position: relative;
-    top: 0 !important;
-    width: 20% !important;
+    width: 25% !important;
     height: 100%;
     margin: 0;
     padding: 0;
     border: 0;
+    top: 0;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-top: solid 5px #000;
+      border-left: solid 5px #000;
+      border-color: $si-color-white-a0;
+      position: absolute;
+      top: 50%;
+      transition: all .2s;
+    }
+
+    &:hover {
+
+      &:after {
+        border-color: $si-color-white-a75;
+      }
+
+    }
+
   }
 
   &.fp-prev {
     left: 0 !important;
-    background: green;
+
+    &:after {
+      left: 15%;
+      transform: rotate(-45deg);
+    }
 
     &:hover {
-      background: red;
+
+      &:after {
+        left: 20%;
+      }
+
     }
 
   }
 
   &.fp-next {
     right: 0 !important;
+
+    &:after {
+      right: 15%;
+      transform: rotate(135deg);
+    }
+
+    &:hover {
+
+      &:after {
+        right: 20%;
+      }
+
+    }
+
   }
 
 }
