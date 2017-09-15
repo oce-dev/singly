@@ -10,6 +10,8 @@ html {
 .navbar {
   &.primary {
     z-index: 10;
+    background: none;
+    @extend .fixed-top;
   }
 }
 
