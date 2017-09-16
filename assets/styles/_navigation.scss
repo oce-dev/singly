@@ -2,9 +2,15 @@
 
 .navbar {
   &.primary {
-    background: none;
+    background: $si-color-black-a25;
     z-index: 10;
+    color: $si-color-white;
     @extend .fixed-top;
+
+    @include media-breakpoint-up(md) {
+      background: none;
+    }
+
   }
 
   // Logo
@@ -14,7 +20,7 @@
       transition: width .10s;
 
       @include media-breakpoint-up(md) {
-        width: 150px;
+        width: 130px;
       }
     }
   }

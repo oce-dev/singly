@@ -6679,14 +6679,18 @@ body {
     font-weight: 600; }
 
 .navbar.primary {
-  background: none;
-  z-index: 10; }
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  color: #fff; }
+  @media (min-width: 768px) {
+    .navbar.primary {
+      background: none; } }
 .navbar .navbar-brand img {
   width: 100px;
   transition: width .10s; }
   @media (min-width: 768px) {
     .navbar .navbar-brand img {
-      width: 150px; } }
+      width: 130px; } }
 .navbar .navbar-toggler {
   top: 20px; }
 
