@@ -2744,37 +2744,31 @@ tbody.collapse.show {
   margin-bottom: 0;
   list-style: none; }
 
-.nav-link, .nav.primary li a {
+.nav-link {
   display: block;
   padding: 0.5em 1em; }
-  .nav-link:focus, .nav.primary li a:focus, .nav-link:hover, .nav.primary li a:hover {
+  .nav-link:focus, .nav-link:hover {
     text-decoration: none; }
-  .nav-link.disabled, .nav.primary li a.disabled {
+  .nav-link.disabled {
     color: #636c72;
     cursor: not-allowed; }
 
 .nav-tabs {
   border-bottom: 1px solid #ddd; }
-  .nav-tabs .nav-item, .nav-tabs .nav.primary li, .nav.primary .nav-tabs li {
+  .nav-tabs .nav-item {
     margin-bottom: -1px; }
-  .nav-tabs .nav-link, .nav-tabs .nav.primary li a, .nav.primary li .nav-tabs a {
+  .nav-tabs .nav-link {
     border: 1px solid transparent;
     border-top-right-radius: 0.25rem;
     border-top-left-radius: 0.25rem; }
-    .nav-tabs .nav-link:focus, .nav-tabs .nav.primary li a:focus, .nav.primary li .nav-tabs a:focus, .nav-tabs .nav-link:hover, .nav-tabs .nav.primary li a:hover, .nav.primary li .nav-tabs a:hover {
+    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
       border-color: #eceeef #eceeef #ddd; }
-    .nav-tabs .nav-link.disabled, .nav-tabs .nav.primary li a.disabled, .nav.primary li .nav-tabs a.disabled {
+    .nav-tabs .nav-link.disabled {
       color: #636c72;
       background-color: transparent;
       border-color: transparent; }
-  .nav-tabs .nav-link.active, .nav-tabs .nav.primary li a.active, .nav.primary li .nav-tabs a.active,
-  .nav-tabs .nav-item.show .nav-link,
-  .nav-tabs .nav.primary li.show .nav-link,
-  .nav.primary .nav-tabs li.show .nav-link,
-  .nav-tabs .nav-item.show .nav.primary li a,
-  .nav.primary li .nav-tabs .nav-item.show a,
-  .nav-tabs .nav.primary li.show a,
-  .nav.primary .nav-tabs li.show a {
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
     color: #464a4c;
     background-color: #fff;
     border-color: #ddd #ddd #fff; }
@@ -2783,25 +2777,19 @@ tbody.collapse.show {
     border-top-right-radius: 0;
     border-top-left-radius: 0; }
 
-.nav-pills .nav-link, .nav-pills .nav.primary li a, .nav.primary li .nav-pills a {
+.nav-pills .nav-link {
   border-radius: 0.25rem; }
-.nav-pills .nav-link.active, .nav-pills .nav.primary li a.active, .nav.primary li .nav-pills a.active,
-.nav-pills .nav-item.show .nav-link,
-.nav-pills .nav.primary li.show .nav-link,
-.nav.primary .nav-pills li.show .nav-link,
-.nav-pills .nav-item.show .nav.primary li a,
-.nav.primary li .nav-pills .nav-item.show a,
-.nav-pills .nav.primary li.show a,
-.nav.primary .nav-pills li.show a {
+.nav-pills .nav-link.active,
+.nav-pills .nav-item.show .nav-link {
   color: #fff;
   cursor: default;
   background-color: #0275d8; }
 
-.nav-fill .nav-item, .nav-fill .nav.primary li, .nav.primary .nav-fill li {
+.nav-fill .nav-item {
   flex: 1 1 auto;
   text-align: center; }
 
-.nav-justified .nav-item, .nav-justified .nav.primary li, .nav.primary .nav-justified li {
+.nav-justified .nav-item {
   flex: 1 1 100%;
   text-align: center; }
 
@@ -2833,7 +2821,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }
-  .navbar-nav .nav-link, .navbar-nav .nav.primary li a, .nav.primary li .navbar-nav a {
+  .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0; }
 
@@ -2884,7 +2872,7 @@ tbody.collapse.show {
     align-items: center; }
     .navbar-toggleable .navbar-nav {
       flex-direction: row; }
-      .navbar-toggleable .navbar-nav .nav-link, .navbar-toggleable .navbar-nav .nav.primary li a, .nav.primary li .navbar-toggleable .navbar-nav a {
+      .navbar-toggleable .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-toggleable > .container {
@@ -2910,7 +2898,7 @@ tbody.collapse.show {
     align-items: center; }
     .navbar-toggleable-sm .navbar-nav {
       flex-direction: row; }
-      .navbar-toggleable-sm .navbar-nav .nav-link, .navbar-toggleable-sm .navbar-nav .nav.primary li a, .nav.primary li .navbar-toggleable-sm .navbar-nav a {
+      .navbar-toggleable-sm .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-toggleable-sm > .container {
@@ -2936,7 +2924,7 @@ tbody.collapse.show {
     align-items: center; }
     .navbar-toggleable-md .navbar-nav {
       flex-direction: row; }
-      .navbar-toggleable-md .navbar-nav .nav-link, .navbar-toggleable-md .navbar-nav .nav.primary li a, .nav.primary li .navbar-toggleable-md .navbar-nav a {
+      .navbar-toggleable-md .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-toggleable-md > .container {
@@ -2962,7 +2950,7 @@ tbody.collapse.show {
     align-items: center; }
     .navbar-toggleable-lg .navbar-nav {
       flex-direction: row; }
-      .navbar-toggleable-lg .navbar-nav .nav-link, .navbar-toggleable-lg .navbar-nav .nav.primary li a, .nav.primary li .navbar-toggleable-lg .navbar-nav a {
+      .navbar-toggleable-lg .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-toggleable-lg > .container {
@@ -2986,7 +2974,7 @@ tbody.collapse.show {
     padding-left: 0; }
   .navbar-toggleable-xl .navbar-nav {
     flex-direction: row; }
-    .navbar-toggleable-xl .navbar-nav .nav-link, .navbar-toggleable-xl .navbar-nav .nav.primary li a, .nav.primary li .navbar-toggleable-xl .navbar-nav a {
+    .navbar-toggleable-xl .navbar-nav .nav-link {
       padding-right: .5rem;
       padding-left: .5rem; }
   .navbar-toggleable-xl > .container {
@@ -3006,22 +2994,16 @@ tbody.collapse.show {
   .navbar-light .navbar-toggler:focus,
   .navbar-light .navbar-toggler:hover {
     color: rgba(0, 0, 0, 0.9); }
-.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav.primary li a, .nav.primary li .navbar-light .navbar-nav a {
+.navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav.primary li a:focus, .nav.primary li .navbar-light .navbar-nav a:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav.primary li a:hover, .nav.primary li .navbar-light .navbar-nav a:hover {
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: rgba(0, 0, 0, 0.7); }
-  .navbar-light .navbar-nav .nav-link.disabled, .navbar-light .navbar-nav .nav.primary li a.disabled, .nav.primary li .navbar-light .navbar-nav a.disabled {
+  .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
-.navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .nav.primary li .open > a, .nav.primary li .navbar-light .navbar-nav .open > a,
+.navbar-light .navbar-nav .open > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav.primary li .active > a,
-.nav.primary li .navbar-light .navbar-nav .active > a,
 .navbar-light .navbar-nav .nav-link.open,
-.navbar-light .navbar-nav .nav.primary li a.open,
-.nav.primary li .navbar-light .navbar-nav a.open,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav.primary li a.active,
-.nav.primary li .navbar-light .navbar-nav a.active {
+.navbar-light .navbar-nav .nav-link.active {
   color: rgba(0, 0, 0, 0.9); }
 .navbar-light .navbar-toggler {
   border-color: rgba(0, 0, 0, 0.1); }
@@ -3037,22 +3019,16 @@ tbody.collapse.show {
   .navbar-inverse .navbar-toggler:focus,
   .navbar-inverse .navbar-toggler:hover {
     color: white; }
-.navbar-inverse .navbar-nav .nav-link, .navbar-inverse .navbar-nav .nav.primary li a, .nav.primary li .navbar-inverse .navbar-nav a {
+.navbar-inverse .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5); }
-  .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav.primary li a:focus, .nav.primary li .navbar-inverse .navbar-nav a:focus, .navbar-inverse .navbar-nav .nav-link:hover, .navbar-inverse .navbar-nav .nav.primary li a:hover, .nav.primary li .navbar-inverse .navbar-nav a:hover {
+  .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75); }
-  .navbar-inverse .navbar-nav .nav-link.disabled, .navbar-inverse .navbar-nav .nav.primary li a.disabled, .nav.primary li .navbar-inverse .navbar-nav a.disabled {
+  .navbar-inverse .navbar-nav .nav-link.disabled {
     color: rgba(255, 255, 255, 0.25); }
-.navbar-inverse .navbar-nav .open > .nav-link, .navbar-inverse .navbar-nav .nav.primary li .open > a, .nav.primary li .navbar-inverse .navbar-nav .open > a,
+.navbar-inverse .navbar-nav .open > .nav-link,
 .navbar-inverse .navbar-nav .active > .nav-link,
-.navbar-inverse .navbar-nav .nav.primary li .active > a,
-.nav.primary li .navbar-inverse .navbar-nav .active > a,
 .navbar-inverse .navbar-nav .nav-link.open,
-.navbar-inverse .navbar-nav .nav.primary li a.open,
-.nav.primary li .navbar-inverse .navbar-nav a.open,
-.navbar-inverse .navbar-nav .nav-link.active,
-.navbar-inverse .navbar-nav .nav.primary li a.active,
-.nav.primary li .navbar-inverse .navbar-nav a.active {
+.navbar-inverse .navbar-nav .nav-link.active {
   color: white; }
 .navbar-inverse .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.1); }
@@ -4423,7 +4399,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 .justify-content-start {
   justify-content: flex-start !important; }
 
-.justify-content-end, .nav.primary {
+.justify-content-end {
   justify-content: flex-end !important; }
 
 .justify-content-center, body #section-social .nav.social {
@@ -4915,7 +4891,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 
   .float-xl-none {
     float: none !important; } }
-.fixed-top, .navbar.primary, .nav.primary {
+.fixed-top, .navbar.primary {
   position: fixed;
   top: 0;
   right: 0;
@@ -6672,10 +6648,6 @@ html {
   width: 100%;
   height: 100%; }
 
-.navbar.primary {
-  z-index: 10;
-  background: none; }
-
 body {
   background: none;
   color: #fff;
@@ -6706,15 +6678,17 @@ body {
     text-transform: uppercase;
     font-weight: 600; }
 
-.nav.primary {
-  padding: 10px 40px;
-  text-transform: uppercase;
-  font-weight: 400; }
-  .nav.primary li a {
-    color: #e3f43d;
-    transition: all .25s; }
-    .nav.primary li a:hover {
-      color: white; }
+.navbar.primary {
+  background: none;
+  z-index: 10; }
+.navbar .navbar-brand img {
+  width: 100px;
+  transition: width .10s; }
+  @media (min-width: 768px) {
+    .navbar .navbar-brand img {
+      width: 150px; } }
+.navbar .navbar-toggler {
+  top: 20px; }
 
 .fp-slides .slide {
   background-position: center center;

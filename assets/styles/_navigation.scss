@@ -1,24 +1,26 @@
-.nav.primary {
-  @extend .fixed-top;
-  @extend .justify-content-end;
-  padding: 10px 40px;
-  text-transform: uppercase;
-  font-weight: 400;
+// Primairy Navigation
 
-  li {
-    @extend .nav-item;
+.navbar {
+  &.primary {
+    background: none;
+    z-index: 10;
+    @extend .fixed-top;
+  }
 
-    a {
-      @extend .nav-link;
-      color: $si-color-neon;
-      transition: all .25s;
+  // Logo
+  .navbar-brand {
+    img {
+      width: 100px;
+      transition: width .10s;
 
-      &:hover {
-        color: white;
+      @include media-breakpoint-up(md) {
+        width: 150px;
       }
-
     }
+  }
 
+  .navbar-toggler {
+    top: 20px;
   }
 
 }

@@ -5,16 +5,6 @@ html {
   height: 100%;
 }
 
-// Primairy Navigation
-
-.navbar {
-  &.primary {
-    z-index: 10;
-    background: none;
-    @extend .fixed-top;
-  }
-}
-
 body {
   background: none;
   color: $si-color-white;
