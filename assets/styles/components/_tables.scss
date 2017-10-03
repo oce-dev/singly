@@ -1,0 +1,22 @@
+.table {
+  text-align: left;
+  width: 90%;
+  font-size: 14px;
+
+  @include media-breakpoint-up(md) {
+    width: 75%;
+    font-size: 17px;
+  }
+
+  //Shows
+
+  &.shows {
+    margin: 0 auto;
+
+    thead {
+      text-transform: uppercase;
+    }
+
+  }
+
+}
