@@ -6669,6 +6669,20 @@ body {
     body #section-intro h1 {
       font-size: 50px;
       font-weight: 600; }
+    body #section-intro .branding.logo {
+      width: 90%;
+      height: 105px;
+      margin: 0 auto;
+      display: block;
+      background: url("../images/logo.png") no-repeat center center;
+      background-size: contain;
+      transition: all .25s; }
+      body #section-intro .branding.logo span {
+        display: none; }
+      @media (min-width: 576px) {
+        body #section-intro .branding.logo {
+          width: 70%;
+          height: 200px; } }
   body #section-social .nav.social li {
     margin: 0 10px;
     font-size: 50px; }
@@ -6681,7 +6695,8 @@ body {
 .navbar.primary {
   background: rgba(0, 0, 0, 0.25);
   z-index: 10;
-  color: #fff; }
+  color: #fff;
+  transition: all .25s; }
   @media (min-width: 768px) {
     .navbar.primary {
       background: none; } }

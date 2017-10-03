@@ -5,6 +5,7 @@
     background: $si-color-black-a25;
     z-index: 10;
     color: $si-color-white;
+    transition: all .25s;
     @extend .fixed-top;
 
     @include media-breakpoint-up(md) {

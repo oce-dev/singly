@@ -40,6 +40,27 @@ body {
       font-weight: 600;
     }
 
+    .branding {
+      &.logo {
+        width: 90%;
+        height: 105px;
+        margin: 0 auto;
+        display: block;
+        background: url('../images/logo.png') no-repeat center center;
+        background-size: contain;
+        transition: all .25s;
+
+        span {
+          display: none;
+        }
+
+        @include media-breakpoint-up(sm) {
+          width: 70%;
+          height: 200px;
+        }
+
+      }
+    }
   }
 
   #section-social {
