@@ -50,13 +50,13 @@ body {
         background-size: contain;
         transition: all .25s;
 
-        span {
-          display: none;
-        }
-
         @include media-breakpoint-up(sm) {
           width: 70%;
           height: 200px;
+        }
+
+        span {
+          display: none;
         }
 
       }
@@ -64,6 +64,7 @@ body {
   }
 
   #section-social {
+    background: $si-color-black-a75;
 
     .nav.social {
       @extend .justify-content-center;
@@ -78,6 +79,10 @@ body {
 
       }
 
+    }
+
+    .shows {
+      margin-bottom: 250px;
     }
 
   }

@@ -8,12 +8,12 @@
 // Mixins
 @import 'mixins/retina';
 
-// Partials
+// General
 @import 'fonts';
 @import 'layout';
 @import 'base';
 @import 'navigation';
 
-
 // Components
 @import 'components/slides';
+@import 'components/tables';

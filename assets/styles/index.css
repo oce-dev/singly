@@ -6677,17 +6677,21 @@ body {
       background: url("../images/logo.png") no-repeat center center;
       background-size: contain;
       transition: all .25s; }
-      body #section-intro .branding.logo span {
-        display: none; }
       @media (min-width: 576px) {
         body #section-intro .branding.logo {
           width: 70%;
           height: 200px; } }
-  body #section-social .nav.social li {
-    margin: 0 10px;
-    font-size: 50px; }
-    body #section-social .nav.social li span {
-      display: none; }
+      body #section-intro .branding.logo span {
+        display: none; }
+  body #section-social {
+    background: rgba(0, 0, 0, 0.75); }
+    body #section-social .nav.social li {
+      margin: 0 10px;
+      font-size: 50px; }
+      body #section-social .nav.social li span {
+        display: none; }
+    body #section-social .shows {
+      margin-bottom: 250px; }
   body h3, body h4 {
     text-transform: uppercase;
     font-weight: 600; }
@@ -6769,5 +6773,18 @@ body {
       transform: rotate(135deg); }
     .fp-controlArrow.fp-next:hover:after {
       right: 20%; }
+
+.table {
+  text-align: left;
+  width: 90%;
+  font-size: 14px; }
+  @media (min-width: 768px) {
+    .table {
+      width: 75%;
+      font-size: 17px; } }
+  .table.shows {
+    margin: 0 auto; }
+    .table.shows thead {
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=index.css.map */
