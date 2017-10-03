@@ -5246,7 +5246,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 .mb-auto {
   margin-bottom: auto !important; }
 
-.ml-auto {
+.ml-auto, .navbar .navbar-nav {
   margin-left: auto !important; }
 
 .mx-auto {
@@ -6687,10 +6687,20 @@ body {
       background: none; } }
 .navbar .navbar-brand img {
   width: 100px;
+  margin-top: -3px;
+  padding: .45rem 0;
   transition: width .10s; }
   @media (min-width: 768px) {
     .navbar .navbar-brand img {
       width: 130px; } }
+.navbar .navbar-nav {
+  padding-top: 20px; }
+  .navbar .navbar-nav a {
+    color: #fff;
+    text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .navbar .navbar-nav {
+      padding: 0; } }
 .navbar .navbar-toggler {
   top: 20px; }
 

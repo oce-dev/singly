@@ -17,12 +17,29 @@
   .navbar-brand {
     img {
       width: 100px;
+      margin-top: -3px;
+      padding: .45rem 0;
       transition: width .10s;
 
       @include media-breakpoint-up(md) {
         width: 130px;
       }
     }
+  }
+
+  .navbar-nav {
+    padding-top: 20px;
+    @extend .ml-auto;
+
+    a {
+      color: $si-color-white;
+      text-transform: uppercase;
+    }
+
+    @include media-breakpoint-up(md) {
+      padding: 0;
+    }
+
   }
 
   .navbar-toggler {
