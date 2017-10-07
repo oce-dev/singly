@@ -17,6 +17,15 @@
       text-transform: uppercase;
     }
 
+    th,
+    td {
+      border: 0;
+    }
+
+    .date {
+      color: $si-color-white-a25;
+    }
+
   }
 
 }

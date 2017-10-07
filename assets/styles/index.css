@@ -6786,5 +6786,10 @@ body {
     margin: 0 auto; }
     .table.shows thead {
       text-transform: uppercase; }
+    .table.shows th,
+    .table.shows td {
+      border: 0; }
+    .table.shows .date {
+      color: rgba(255, 255, 255, 0.25); }
 
 /*# sourceMappingURL=index.css.map */
