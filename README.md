@@ -1,7 +1,6 @@
 # singly(fication)
 
-An exercise in creating a single-page, responsive site template.
-
+An exercise in creating a single, full-page, responsive web page.
 
 ## Resources
 
